@@ -8,24 +8,24 @@ section:
   template: sections/about.html
 
 # your designation
-designation: Data Scientist
+designation: Data Scientist Consultant
 # your company information
 company:
   name: Biostarks
   url: "https://biostarks.com/"
 
 # your resume. this file path should be relative to you "static" directory
-resume: "files/resume.pdf"
+#resume: "files/resume.pdf"
 
 # a summary about you
-summary: 'I am a passionate Data Scientist with 3 years of working experience. '
+summary: 'I am a passionate Data Scientist with 3 years of working experience across Luxury goods, Health and Wellness. '
 
 # your social links
 # give as many as you want. use font-awesome for the icons.
 socialLinks:
 - name: Email
   icon: "fas fa-envelope"
-  url: "example@gmail.com"
+  url: "thevie.mortiniera.pro@outlook.com"
 
 - name: Github
   icon: "fab fa-github"
@@ -59,22 +59,24 @@ badges:
 - type: certification
   name: Andrew Ng Deep Learning Specialization
   url: "https://www.coursera.org/account/accomplishments/specialization/certificate/A3N35GYCNT64"
-  badge: "static/icons/deeplearningai.png"
+  badge: "https://images.credly.com/size/680x680/images/dfcd0d51-de72-4e1c-8f8c-11dad7711124/image.png"
 
-- type: soft-skill-indicator
-  name: Leadership
-  percentage: 85
-  color: blue
 
-- type: soft-skill-indicator
-  name: Team Work
-  percentage: 90
-  color: yellow
 
-- type: soft-skill-indicator
-  name: Hard Working
-  percentage: 85
-  color: orange
+#- type: soft-skill-indicator
+#  name: Leadership
+#  percentage: 85
+#  color: blue
+
+#- type: soft-skill-indicator
+#  name: Team Work
+#  percentage: 90
+#  color: yellow
+
+#- type: soft-skill-indicator
+#  name: Hard Working
+#  percentage: 85
+#  color: orange
 
 # you can also provide color code instead of the color name
 # - type: soft-skill-indicator

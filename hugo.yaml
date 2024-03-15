@@ -1,7 +1,7 @@
 baseURL: https://mortiniera.github.io
 
 languageCode: en-us
-title: "Thevie's Blog"
+title: "My Website"
 
 # Use Hugo modules to add theme
 
@@ -51,6 +51,9 @@ enableEmoji: true
 
 # Site parameters
 params:
+
+  background: /images/site/background-image.jpg
+
   # GitHub repo URL of your site
   gitRepo: https://github.com/Mortiniera/mortiniera.github.io
 
