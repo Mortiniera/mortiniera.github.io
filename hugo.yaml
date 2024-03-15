@@ -52,7 +52,7 @@ enableEmoji: true
 # Site parameters
 params:
 
-  background: /images/site/background-image.jpg
+  #background: /images/site/background-image.jpg
 
   # GitHub repo URL of your site
   gitRepo: https://github.com/Mortiniera/mortiniera.github.io

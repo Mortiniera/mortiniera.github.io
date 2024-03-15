@@ -1,0 +1,35 @@
+# section information
+section:
+  name: Skills
+  id: skills
+  enable: true
+  weight: 2
+  showOnNavbar: true
+  # hideTitle: true
+
+
+skills:
+- name: Python
+  logo: /images/sections/skills/python.png
+  summary: "Main and favorite programming language for professional development. Able to write scalable, maintenable and testable code (Pytest). Use Scikit-learn for traditional machine learning (xgBoost, Random Forest, K-means, K-NN, logistic regression), Tensorflow and Pytorch for deep learning (CNN, LSMT, GAN) and Hugging Face Transformers for NLP/NLU models."
+  url: "https://www.python.org/"
+
+- name: PHP Laravel
+  logo: /images/sections/skills/php.png
+  summary: "Professional experience with building web applications with PHP using Laravel framework (MVC and SOA architectures). Capable of implementing APIs at REST, communicating with underlying SQL database (PostgreSQL) and NoSQL database (ElasticSearch Index)  and running database migrations."
+  url: "https://laravel.com/"
+
+- name: Google Cloud
+  logo: /images/sections/skills/google-cloud.png
+  summary: "Professional experience using Google Cloud to deploy software application (CloudBuild, Cloud Run, Cloud Functions, Virtual Machine) and Machine learning Models (Vertex AI). Analyzed large-scale datasets (BigQuery) and implemented KPI dashboards (Looker)."
+  url: "https://cloud.google.com/"
+
+- name: Git
+  logo: /images/sections/skills/git.png
+  summary: "Proficient in using Git (Gitlab or Github) for code version control. Implemented CI/CD pipelines on-premise and on-the-cloud."
+  url: "https://git-scm.com/"
+
+- name: Docker
+  logo: /images/sections/skills/docker.png
+  summary: "Used to write most of my programs using dockerized containers, either for quick experimentation or professional development."
+  url: "https://www.docker.com/"
