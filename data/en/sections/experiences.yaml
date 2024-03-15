@@ -1,0 +1,75 @@
+section:
+  name: Experiences # Titre de la section (par défaut: "" )
+  id: experiences # url id/slug of section *Required*
+  enable: true
+  weight: 3
+  showOnNavbar: true
+  # hideTitle: true 
+
+
+
+# Your experiences
+experiences:
+- company:
+    name: Biostarks
+    url: "https://www.biostarks.com/"
+    location: Geneva, Switzerland
+    logo: /images/sections/experiences/biostarks.png
+    # company overview
+    #overview: Example Co. is a widely recognized company for cloud-native development. It builds tools for Kubernetes.
+  positions:
+  - designation: Data Scientist Consultant
+    start: Feb 2024
+    # don't provide end date if you are currently working there. It will be replaced by "Present"
+    # end: Dec 2020
+    responsibilities:
+    - Statistical analysis of laboratory data and visualization
+    - Implementation of CI/CD pipelines with integration of tests for Performance Qualification of laboratory processes and softwares.
+
+- company:
+    name: Cartier
+    url: "https://www.cartier.com/"
+    location: Chaux-de-fonds, Switzerland
+    logo: /images/sections/experiences/cartier.png
+    # company overview
+    #overview: Example Co. is a widely recognized company for cloud-native development. It builds tools for Kubernetes.
+  positions:
+  - designation: Data Scientist
+    start: Feb 2023
+    end: Jan 2024
+    responsibilities:
+    - Retrieval and analysis of relevant data from a GCP data lake (Bigquery, Cloud Storage)
+    - Implementation and deployment of analytical, machine learning and deep learning models around data from 3D (Vertex AI, Pandas, Numpy, Open3D, ScikitLearn, Tensorflow)
+    - Development of software and machine learning models pipelines (Github, Docker, CloudBuild, VertexAI, CloudRun, CloudFunctions)
+
+- company:
+    name: Biostarks
+    url: "https://www.biostarks.com/"
+    location: Geneva, Switzerland
+    logo: /images/sections/experiences/biostarks.png
+    # company overview
+    #overview: Example Co. is a widely recognized company for cloud-native development. It builds tools for Kubernetes.
+  positions:
+  - designation: Data Scientist
+    start: Nov 2020
+    end: Jan 2023
+    responsibilities:
+    - Ran statistical analysis and visualization to help laboratory technicians and senior managers on their studies and analysis.
+    - Developed and deployed a personalized food recommender system based on patient blood results (health biomarkers) and food nutrient composition.
+    - Implemented an in-house robust Laboratory Information Management System (LIMS) with PHP Laravel and PostGreSQL for the website backend and Python for data processing to improve sample tracking and automation in the lab.
+
+
+- company:
+    name: Rolex
+    url: "https://www.rolex.com/"
+    location: Geneva, Switzerland
+    logo: /images/sections/experiences/rolex.png
+    # company overview
+    #overview: Example Co. is a widely recognized company for cloud-native development. It builds tools for Kubernetes.
+  positions:
+  - designation: Data Science Intern
+    start: Feb 2020
+    end: Aug 2023
+    responsibilities:
+    - Implemented a video tracking a mechanical object going through both translations and rotations using fast fourier transforms
+    - Evaluated various machine learning models (clustering, random forest) to analyze correlation between chronometrics performances and movement patterns.
