@@ -1,7 +1,7 @@
 baseURL: https://mortiniera.github.io
 
 languageCode: en-us
-title: "My Website"
+title: "Portfolio"
 
 # Use Hugo modules to add theme
 
@@ -77,3 +77,8 @@ params:
   #configure newsletter
   newsletter:
     enable: false
+
+  logo:
+    main: images/site-logo.png
+    inverted: images/site-logo.png
+    favicon: images/site-logo.png
