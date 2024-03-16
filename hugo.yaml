@@ -73,3 +73,7 @@ params:
   # Configure footer
   footer:
     enable: true
+  
+  #configure newsletter
+  newsletter:
+    enable: false

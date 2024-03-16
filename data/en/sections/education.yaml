@@ -1,0 +1,68 @@
+# section information
+section:
+  name: Education
+  id: education
+  template: sections/education.html # Use "sections/education-alt.html for alternate template.
+  enable: true
+  weight: 4
+  showOnNavbar: true
+  # hideTitle: true
+
+
+degrees:
+- name: Msc. in Data Science
+  icon: fa-microscope
+  timeframe: 2018-2020
+  institution:
+    name: ECOLE POLYTECHNIQUE FEDERALE DE LAUSANNE (EPFL)
+    url: "https://www.epfl.ch/"
+    logo: /images/sections/education/epfl.png # Path of the logo image
+  #grade: #(optional)
+  #  scale: CGPA
+  #  achieved: 3.6
+  #  outOf: 4
+  #publications: #(optional)
+  #- title: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+  #  url: "#"
+  #- title: Fusce eu augue ut odio porttitor pulvinar.
+  #  url: "#"
+  #- title: Nullam vitae orci tincidunt purus viverra pulvinar.
+  #  url: "#"
+  extracurricularActivities: #(optional), supports markdown
+  - Erasmus Student Network (ESN) - Commitee Member (Oct 2019 - Feb 2020). <br>Welcome exchange students with visits and activities for cultural understanding and mobility.
+  - EPFL Call Center - IT support Assistant (Apr 2018 - Feb 2020). <br> Address customer needs (in person, email or phone call) through ticketing using Service Now. <br>Update the knowledge base, troubleshoot and resolve software usage problems.
+  custonSections: #(optional)
+    - name: Thesis
+      content: Highlight, by Video Tracking analysis and Machine Learning algorithms, the movement patterns of an object that influence the chronometric performances of a mechanical subsystem.
+    - name: Main courses
+      content: Technical-oriented coursework which covered areas such as Statistics, Applied Data Analysis, Machine Learning, Artificial Neural Networks, and Database Systems. <br>Completed a Minor in Management, Technology and Entrepreneurship (MTE), encompassing courses in Financial Markets, Econometrics, Project Management and Supply Chain. <br> The educational journey combined in-depth technical skills with business acumen and management principles.
+
+
+- name: Bsc. in Data Science
+  icon: fa-microscope
+  timeframe: 2013-2018
+  institution:
+    name: ECOLE POLYTECHNIQUE FEDERALE DE LAUSANNE (EPFL)
+    url: "https://www.epfl.ch/"
+    logo: /images/sections/education/epfl.png # Path of the logo image
+  #grade: #(optional)
+  #  scale: CGPA
+  #  achieved: 3.6
+  #  outOf: 4
+  #publications: #(optional)
+  #- title: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+  #  url: "#"
+  #- title: Fusce eu augue ut odio porttitor pulvinar.
+  #  url: "#"
+  #- title: Nullam vitae orci tincidunt purus viverra pulvinar.
+  #  url: "#"
+  extracurricularActivities: #(optional), supports markdown
+  - Ingenieurs du monde EPFL - Member (Sep 2017 - Jan 2018). <br>Internship grants for UNIL and EPFL students to carry out a development project in an emerging country.
+  - McDonalds - Versatile Crew  (Oct 2016 - Jul 2018). <br> Part-time student job (weekends, night shifts). Worked in the kitchen, in the lobby and as a cashier.
+  - Corris AG - Fundraiser (Feb 2015) .Street Fundraising activities for a non-profit organization.
+  - CVAJ - Private Tutor (Apr 2016 - Feb 2020) . Helped high school and university students in improving their grades in mathematics and statistics.
+  custonSections: #(optional)
+    - name: Thesis
+      content: Highlight, by Video Tracking analysis and Machine Learning algorithms, the movement patterns of an object that influence the chronometric performances of a mechanical subsystem.
+    - name: Main courses
+      content: Technical coursework focused on computer science fundamentals such as data structures, algorithms, networking, and security, alongside programming in languages like JAVA (Object Oriented Programming), C (System Oriented Programming), and Scala (Functional Programming). <br>A strong emphasis was placed on mathematical foundations with courses in Calculus, linear algebra, statistics, and signal processing<br>Pursued an optional track in Visual Computing, focusing on C++ and OpenGL.

@@ -69,7 +69,22 @@ experiences:
   positions:
   - designation: Data Science Intern
     start: Feb 2020
-    end: Aug 2023
+    end: Aug 2020
     responsibilities:
-    - Implemented a video tracking a mechanical object going through both translations and rotations using fast fourier transforms
+    - Implemented a video tracking application of a mechanical object going through both translations and rotations using fast fourier transforms
     - Evaluated various machine learning models (clustering, random forest) to analyze correlation between chronometrics performances and movement patterns.
+
+- company:
+    name: AIESEC Global Volunteer
+    url: "https://aiesec.org/global-volunteer"
+    location: Cairo, Egypt
+    logo: /images/sections/experiences/aiesec.png
+    # company overview
+    #overview: Example Co. is a widely recognized company for cloud-native development. It builds tools for Kubernetes.
+  positions:
+  - designation: Web developer Summer Intern
+    start: Jul 2018
+    end: Aug 2018
+    responsibilities:
+    - Implemented the back-end (user registration processes and login) for a real estate agency in New Cairo.
+    - Worked mostly using PHP and MySQL.
