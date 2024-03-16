@@ -1,0 +1,73 @@
+# section information
+section:
+  name: Projects
+  id: projects
+  enable: true
+  weight: 5
+  showOnNavbar: true
+  # hideTitle: true
+
+buttons:
+- name: All
+  filter: "all"
+- name: Data Analysis
+  filter: "data-analysis"
+- name: Data Engineering
+  filter: "data-engineering"
+- name: Machine learning
+  filter: "machine-learning"
+- name: NLP
+  filter: "NLP"
+- name: Timeries
+  filter: "timeseries"
+#- name: Software Engineering
+#  filter: "software-engineering"
+- name: Generative AI
+  filter: "generative-models"
+
+projects:
+
+- name: Transformer implementation for Sequence to Sequence translation
+  logo: images/sections/projects/nlp.png
+  #role: Author
+  timeline: "March 2024 - Present"
+  repo: https://github.com/Mortiniera/transformers-implementation/
+  #url: https://medium.com/@thevie/fighting-telco-customer-churn-problem-a-data-driven-analysis-e7c61cfae0dd
+  summary: From scratch Pytorch implementation of the original transformer paper. Briefly explain how it works through a sentence-to-sentence translation task example with English to Spanish.
+  tags: ["NLP", "machine-learning", "deep-learning" ,"python", "pytorch", "transformers"]
+
+- name: Algorithmic trading using MACD
+  logo: images/sections/projects/stock-market.jpeg
+  #role: Author
+  timeline: "Jan 2024"
+  repo: https://github.com/Mortiniera/algorithmic-trading-technical-indicators
+  # url: ""
+  summary: Comprehensive and educational analysis of investment strategies using the performance metrics of GAFAM stocks 📈 - Google, Apple, Facebook (now Meta), Amazon, and Microsoft.<br>It evaluates two distinct approaches. An *active strategy utilizing Moving Average Convergence Divergence (MACD)* for trading signals and a *passive strategy employing dollar-cost averaging (DCA)* with the SPDR S&P 500 ETF Trust (SPY) as a benchmark.
+  tags: ["timeseries", "data-analysis", "python", "scipy"]
+
+- name: Collaborative Image Inpainting
+  logo: images/sections/projects/gan.jpeg
+  #role: Author
+  timeline: "Sep 2020 - Dec 2020"
+  repo: https://github.com/Mortiniera/collaborative-image-inpainting
+  # url: ""
+  summary: Restore images with centrally masked areas using generative models to accurately predict and reconstruct missing parts.<br>Post-GAN training, the discriminator and generator collaboratively produce high-quality image samples using continuous gradient-based updates to the activation maps until the samples are classified as real by the discriminator.
+  tags: ["machine-learning", "generative-models", "tensorflow", "python"]
+
+- name: Customer churn Problem
+  logo: images/sections/projects/customer-churn.png
+  #role: Author
+  timeline: "Aug 2019"
+  #repo: https://github.com/Mortiniera/Data_Science_Portfolio/blob/master/Data%20Analysis%20Series/Fighting%20_Churn/Telco_Customer_Retention.ipynb
+  url: https://medium.com/@thevie/fighting-telco-customer-churn-problem-a-data-driven-analysis-e7c61cfae0dd
+  summary: Data-driven analysis and machine learning to detect customers who are more likely to churn. Used those insights to propose different strategies for the company to investigate for a potential retention program.
+  tags: ["data-analysis", "machine-learning", "customer-segmentation", "python", "scikit-learn"]
+
+- name: Boston House Prices
+  logo: images/sections/projects/boston-houses.jpeg
+  #role: Author
+  timeline: "Jul 2019"
+  #repo: https://github.com/Mortiniera/Data_Science_Portfolio/blob/master/Data%20Analysis%20Series/Fighting%20_Churn/Telco_Customer_Retention.ipynb
+  url: https://medium.com/@thevie/predicting-boston-housing-prices-step-by-step-linear-regression-tutorial-from-scratch-in-python-c50a09b70b22
+  summary: This analysis compares the implementation of linear regression models from scratch (utilizing Numpy and Pandas) with those from scikit-learn to predict the optimal selling price for a client's house.
+  tags: ["data-analysis", "machine-learning", "python", "scikit-learn"]

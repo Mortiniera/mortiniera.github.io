@@ -57,10 +57,10 @@ degrees:
   #- title: Nullam vitae orci tincidunt purus viverra pulvinar.
   #  url: "#"
   extracurricularActivities: #(optional), supports markdown
-  - Ingenieurs du monde EPFL - Member (Sep 2017 - Jan 2018). <br>Internship grants for UNIL and EPFL students to carry out a development project in an emerging country.
-  - McDonalds - Versatile Crew  (Oct 2016 - Jul 2018). <br> Part-time student job (weekends, night shifts). Worked in the kitchen, in the lobby and as a cashier.
-  - Corris AG - Fundraiser (Feb 2015) .Street Fundraising activities for a non-profit organization.
-  - CVAJ - Private Tutor (Apr 2016 - Feb 2020) . Helped high school and university students in improving their grades in mathematics and statistics.
+  - Ingenieurs du monde EPFL - Member (Sep 2017 - Jan 2018)<br>Internship grants for UNIL and EPFL students to carry out a development project in an emerging country.
+  - McDonalds - Versatile Crew  (Oct 2016 - Jul 2018)<br> Part-time student job (weekends, night shifts). Worked in the kitchen, in the lobby and as a cashier.
+  - CVAJ - Private Tutor (Apr 2016 - Feb 2020)<br>Helped high school and university students in improving their grades in mathematics and statistics.
+  - Corris AG - Fundraiser (Feb 2015)<br>Street Fundraising activities for a non-profit organization.
   custonSections: #(optional)
     - name: Thesis
       content: Highlight, by Video Tracking analysis and Machine Learning algorithms, the movement patterns of an object that influence the chronometric performances of a mechanical subsystem.
