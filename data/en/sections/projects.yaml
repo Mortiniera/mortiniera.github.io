@@ -54,6 +54,15 @@ projects:
   summary: Restore images with centrally masked areas using generative models to accurately predict and reconstruct missing parts.<br>Post-GAN training, the discriminator and generator collaboratively produce high-quality image samples using continuous gradient-based updates to the activation maps until the samples are classified as real by the discriminator.
   tags: ["machine-learning", "generative-models", "tensorflow", "python"]
 
+- name: Taught an agent to land on the moon using Reinforcement learning
+  logo: images/sections/projects/reinforcement-learning.png
+  #role: Author
+  timeline: "Oct 2019"
+  #repo: https://github.com/Mortiniera/Data_Science_Portfolio/blob/master/Data%20Analysis%20Series/Fighting%20_Churn/Telco_Customer_Retention.ipynb
+  url: https://github.com/Mortiniera/Data_Science_Portfolio/blob/master/Deep%20Learning%20Series/OpenAI/Lunar_Lander.ipynb
+  summary: Developed a Python-based reinforcement learning agent capable of mastering the Lunar Lander game from OpenAI Gym. <br>I implemented the **REINFORCE loss function** using categorical cross-entropy weighted by the discounted reward for each observation and balanced the need for exploration (to learn diverse strategies) with exploitation (maximizing reward outcomes).
+  tags: ["machine-learning", "deep-learning", "reinforcement-learning", "python", "tensorflow", "keras", "openai-gym"]
+
 - name: Customer churn Problem
   logo: images/sections/projects/customer-churn.png
   #role: Author
