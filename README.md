@@ -1,4 +1,3 @@
-## Portfolio website 
 
 ## Description 
 Portfolio-like website covering my experiences, past and current projects.
