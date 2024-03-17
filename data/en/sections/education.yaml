@@ -62,7 +62,7 @@ degrees:
   - CVAJ - Private Tutor (Apr 2016 - Feb 2020)<br>Helped high school and university students in improving their grades in mathematics and statistics.
   - Corris AG - Fundraiser (Feb 2015)<br>Street Fundraising activities for a non-profit organization.
   custonSections: #(optional)
-    - name: Thesis
-      content: Highlight, by Video Tracking analysis and Machine Learning algorithms, the movement patterns of an object that influence the chronometric performances of a mechanical subsystem.
+    #- name: Thesis
+    #  content: Highlight, by Video Tracking analysis and Machine Learning algorithms, the movement patterns of an object that influence the chronometric performances of a mechanical subsystem.
     - name: Main courses
       content: Technical coursework focused on computer science fundamentals such as data structures, algorithms, networking, and security, alongside programming in languages like JAVA (Object Oriented Programming), C (System Oriented Programming), and Scala (Functional Programming). <br>A strong emphasis was placed on mathematical foundations with courses in Calculus, linear algebra, statistics, and signal processing<br>Pursued an optional track in Visual Computing, focusing on C++ and OpenGL.
