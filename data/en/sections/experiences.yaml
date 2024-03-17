@@ -14,7 +14,7 @@ experiences:
     name: Biostarks
     url: "https://www.biostarks.com/"
     location: Geneva, Switzerland
-    logo: /images/sections/experiences/biostarks.png
+    logo: /images/sections/experiences/biostarks.jpg
     # company overview
     #overview: Example Co. is a widely recognized company for cloud-native development. It builds tools for Kubernetes.
   positions:
@@ -46,7 +46,7 @@ experiences:
     name: Biostarks
     url: "https://www.biostarks.com/"
     location: Geneva, Switzerland
-    logo: /images/sections/experiences/biostarks.png
+    logo: /images/sections/experiences/biostarks.jpg
     # company overview
     #overview: Example Co. is a widely recognized company for cloud-native development. It builds tools for Kubernetes.
   positions:
