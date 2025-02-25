@@ -18,13 +18,20 @@ experiences:
     # company overview
     #overview: Example Co. is a widely recognized company for cloud-native development. It builds tools for Kubernetes.
   positions:
-  - designation: Data Scientist Consultant
-    start: Feb 2024
+  - designation: Head of Data Operations & Customer insights
+    start: Aug 2024
     # don't provide end date if you are currently working there. It will be replaced by "Present"
     # end: Dec 2020
     responsibilities:
+    - Leading data operations and operational efficiency, acting as the bridge between our laboratory, our digital platforms and our customers.
+  - designation: Data Scientist Consultant
+    start: Feb 2024
+    # don't provide end date if you are currently working there. It will be replaced by "Present"
+    end: Jul 2024
+    responsibilities:
+    - Implemented data pipelines on AWS (API gateway, kinesis streams, lambda, S3, redshift)
     - Statistical analysis of laboratory data and visualization
-    - Implementation of CI/CD pipelines with integration of tests for Performance Qualification of laboratory processes and softwares.
+    - Worked on proprietary Software (Laravel, ReactJS, Docker, Python)
 
 - company:
     name: Cartier

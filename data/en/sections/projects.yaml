@@ -12,16 +12,16 @@ buttons:
   filter: "all"
 - name: Data Analysis
   filter: "data-analysis"
-- name: Data Engineering
-  filter: "data-engineering"
+#- name: Data Engineering
+#  filter: "data-engineering"
 - name: Machine learning
   filter: "machine-learning"
 - name: NLP
   filter: "NLP"
 - name: Timeries
   filter: "timeseries"
-#- name: Software Engineering
-#  filter: "software-engineering"
+- name: Software Engineering
+  filter: "software-engineering"
 - name: Generative AI
   filter: "generative-models"
 
@@ -53,6 +53,15 @@ projects:
   # url: ""
   summary: Restore images with centrally masked areas using generative models to accurately predict and reconstruct missing parts.<br>Post-GAN training, the discriminator and generator collaboratively produce high-quality image samples using continuous gradient-based updates to the activation maps until the samples are classified as real by the discriminator.
   tags: ["machine-learning", "generative-models", "tensorflow", "python"]
+
+- name: Inactive Tab Tracker - Google Chrome extension
+  logo: images/sections/projects/google-chrome-tab-tracker.svg
+  #role: Author
+  timeline: "Feb 2025"
+  repo: https://github.com/Mortiniera/chrome-tab-tracker
+  #url: https://github.com/Mortiniera/Data_Science_Portfolio/blob/master/Deep%20Learning%20Series/OpenAI/Lunar_Lander.ipynb
+  summary: Google Chrome extension to automatically track and close inactive tabs making browsing experience lightweight.
+  tags: ["software-engineering", "javascript", "google-chrome"]
 
 - name: Taught an agent to land on the moon using Reinforcement learning
   logo: images/sections/projects/reinforcement-learning.png
