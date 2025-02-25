@@ -30,7 +30,13 @@ jobs:
     - name: Install node modules
       run: |
         hugo mod npm pack
-        npm install        
+        npm install
+
+    - name: Clean Hugo Cache
+      run: hugo mod clean
+
+    - name: Remove Public and Resources
+      run: rm -rf public resources       
 
     - name: Build
       run: hugo --minify
