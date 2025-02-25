@@ -16,7 +16,7 @@ jobs:
     - name: Setup Hugo
       uses: peaceiris/actions-hugo@v2.6.0
       with:
-        hugo-version: 'latest'
+        hugo-version: '0.127.0'
         extended: true
 
     - name: Update Hugo Modules
@@ -34,12 +34,6 @@ jobs:
 
     - name: Clean Hugo Cache
       run: hugo mod clean
-
-    - name: Remove Public and Resources
-      run: rm -rf public resources       
-
-    - name: Build
-      run: hugo --minify
 
     # push the generated content into the `gh-pages` branch.
     - name: Deploy
