@@ -36,5 +36,5 @@ skills:
 
 - name: Databases (SQL and NoSQL)
   logo: /images/sections/skills/database.png
-  summary: "Designed and implemented complex relational databases (MySQL and PostgreSQL). <br>Implemented and worked with an Elastic Search Index to store large text documents. <br>.Able to interact with them using both Python and PHP Laravel "
+  summary: "Designed and implemented complex relational databases (MySQL and PostgreSQL). <br>Implemented and worked with an Elastic Search Index to store large text documents. <br>Able to interact with them using both Python and PHP Laravel "
   url: "https://www.docker.com/"
