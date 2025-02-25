@@ -32,8 +32,8 @@ jobs:
         hugo mod npm pack
         npm install
 
-    - name: Clean Hugo Cache
-      run: hugo mod clean
+    - name: Build
+      run: hugo --minify
 
     # push the generated content into the `gh-pages` branch.
     - name: Deploy
